@@ -49,3 +49,54 @@
     margin-top: 10px;
     width: 160px;
 }
+
+
+/* LINKS */
+
+.container-link-class {
+    height: 300px;
+}
+
+.container-link-class > h2 {
+    margin-top: 475px;
+    text-align: center;
+}
+
+.container-link-class > p {
+    padding: 3px;
+    margin-left: 10px;
+}
+
+/* MAP CONTAINER */
+.container-map-class {
+    background-color: var(--color0);
+    height: 350px;
+    text-align: center;
+}
+
+.address-class {
+    width: 250px;
+    float: left;
+}
+
+.address-class > p {
+    margin-top: 25px;
+}
+
+.map-class {
+    width: 250px;
+    float: left;
+}
+
+iframe {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+/* FOOTER */
+footer {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
