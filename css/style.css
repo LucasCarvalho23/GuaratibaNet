@@ -67,6 +67,18 @@
     margin-left: 10px;
 }
 
+.container-link-class > p > a {
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.container-link-class > p > a:hover {
+    background-color: var(--color2);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 /* MAP CONTAINER */
 .container-map-class {
     background-color: var(--color0);
@@ -95,7 +107,7 @@ iframe {
 
 /* FOOTER */
 footer {
-    background-color: gray;
+    background-color: var(--color2);
     color: white;
     font-weight: bold;
     text-align: center;
