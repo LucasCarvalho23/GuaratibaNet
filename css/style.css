@@ -55,6 +55,7 @@
 
 .container-link-class {
     height: 300px;
+    clear: both;
 }
 
 .container-link-class > h2 {
@@ -105,10 +106,7 @@ iframe {
     margin-left: 25px;
 }
 
-/* FOOTER 
+/* FOOTER */
 footer {
-    background-color: var(--color2);
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    clear: both;
 }
