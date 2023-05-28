@@ -45,6 +45,17 @@
     float: left;
 }
 
+.container-sec-main-class > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.container-sec-main-class > h3 {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
 .container-sec-main-class > p {
     margin-top: 10px;
     width: 160px;
@@ -53,27 +64,28 @@
 
 /* LINKS */
 
+
 .container-link-class {
     height: 300px;
     clear: both;
 }
 
-.container-link-class > h2 {
-    margin-top: 475px;
+.container-link-class > div > h2 {
     text-align: center;
+    padding-top: 20px;
 }
 
-.container-link-class > p {
+.container-link-class > div > p {
     padding: 3px;
     margin-left: 10px;
 }
 
-.container-link-class > p > a {
+.container-link-class > div > p > a {
     text-decoration: none;
     color: var(--color2);
 }
 
-.container-link-class > p > a:hover {
+.container-link-class > div > p > a:hover {
     background-color: var(--color2);
     color: white;
     padding: 10px;
@@ -88,7 +100,7 @@
 }
 
 .address-class {
-    width: 250px;
+    max-width: 250px;
     float: left;
 }
 
