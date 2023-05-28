@@ -33,6 +33,13 @@
 
 
 /* MAIN */
+
+main > div > div > div > abbr > img {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
 .container-main-class {
     background-color: var(--color0);
     width: 100vw;
