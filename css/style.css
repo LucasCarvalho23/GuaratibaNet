@@ -68,6 +68,11 @@ main > div > div > div > abbr > a > img {
     width: 160px;
 }
 
+.container-sec-main-class > p > button > a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* LINKS */
 
