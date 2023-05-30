@@ -13,18 +13,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-planos-class {
-    text-align: center;
-}
-
 h1 {
     padding: 20px;
     font-size: 1.4em;
     text-align: center;
-}
-
-div > img {
-    width: 350px;
-    border-radius: 10px;
-    margin-bottom: 20px;
 }

@@ -19,7 +19,6 @@ main {
 
 main > div {
     background-color: var(--color0);
-    width: 300px;
     margin: auto;
     padding: 20px;
     border: 1px solid black;
@@ -28,6 +27,12 @@ main > div {
 
 main > div > h1 {
     font-size: 1.7em;
+}
+
+h1 {
+    padding: 7px;
+    color: white;
+    background: linear-gradient(to right, #da2524, transparent);
 }
 
 footer {
