@@ -201,10 +201,10 @@ main {
 @media (max-width: 515px) {
     .container-map-class {
         text-align: center;
+        max-width: 100vw;
     }
     .address-class {
-        width: 515px;
-
+        width: 100vw;
     }
 
     .address-class > p {
@@ -226,7 +226,7 @@ main {
     }
 
     .address-class {
-        max-width: 250px;
+        max-width: 100vw;
         float: left;
     }
 
@@ -267,6 +267,8 @@ main {
 @media (min-width: 993px) {
     .address-class {
         margin-left: 50px;
+        max-width: 250px;
+        float: left;
     }
 
     .map-class{
@@ -276,11 +278,6 @@ main {
     iframe {
         width: 600px;
         margin: auto;
-    }
-
-    .address-class {
-        max-width: 250px;
-        float: left;
     }
 
     .address-class > p {
@@ -295,11 +292,12 @@ main {
 .container-map-class {
     background-color: var(--color0);
     text-align: center;
+    max-width: 100vw;
+    
 }
 
 iframe {
     margin-top: 25px;
-    margin-left: 25px;
 }
 
 /* FOOTER */
