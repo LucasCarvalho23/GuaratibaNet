@@ -11,6 +11,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    /*outline: 2px solid red !important;*/
 }
 
 ul {
@@ -73,14 +74,13 @@ li {
     }
 
     main > div > div > div > abbr > a > picture > source {
-        padding: 40px;
+        padding: 40px 0;
         height: 550px;
         margin-bottom: 20px;
         margin: auto;
     }
 
     .container-main-class {
-        width: 100vw;
         float: left;
         background-color: var(--color0);
         padding: 20px 0px 0px 30px;
@@ -109,8 +109,12 @@ li {
 }
 
 @media (min-width: 993px) {
+    body {
+        overflow-x: hidden;
+    }
+
     main {
-        width: 1100px;
+        max-width: 1100px;
         margin: auto;
         border-radius: 10px;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.096);
@@ -119,14 +123,14 @@ li {
     main > div > div > div > abbr > a > picture > img {
         border-radius: 10px;
         max-width: 90vw;
-        height: 750px;
+        max-height: 750px;
         padding: 40px;
         margin-bottom: 20px;
         margin: auto;
     }
 
     .container-main-class {
-        width: 1100px;
+        max-width: 1100px;
         float: left;
         background-color: var(--color0);
         padding: 20px 0px 0px 30px;
@@ -183,6 +187,7 @@ main {
 
 .container-link-class {
     height: 350px;
+
     clear: both;
 }
 
